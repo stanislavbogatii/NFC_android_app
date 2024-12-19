@@ -9,20 +9,22 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Поднесите NFC-метку для начала"
+        android:text="Apropiați o etichetă NFC pentru a începe."
         android:textSize="18sp" />
 
     <EditText
         android:id="@+id/inputData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Введите данные для записи"
+        android:hint="Introduceți datele pentru scriere"
         android:layout_marginTop="16dp" />
 
     <Button
         android:id="@+id/writeButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Записать на метку"
+        android:text="Scrieți pe etichetă"
         android:layout_marginTop="8dp" />
 </LinearLayout>
+
+
